@@ -161,6 +161,44 @@ margin-top: 32px;
   margin-left: 200px;
 }
 
+/* upcoming flowers style  */
+
+
+.upcoming-flowers-title{
+    margin-bottom: 24px;
+    text-align: center;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.upcoming-flowers-description{
+
+    margin-bottom: 32px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.upcoming-flowers-pic{
+    display: flex;
+    gap: 26px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 128px;
+}
+.pic{
+    width: 342px;
+height: 396px;
+transition:  linear .3s;
+}
+.pic:hover{
+    border-radius: 30%;
+    transition:  linear .5s;
+}
+.pic3{
+    width: 360px;
+}
 /* instagram part styles */
 .flower-title{
 color: #272727;
